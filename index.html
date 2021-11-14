@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        #container{
+            width: 500px;
+            height: 135px;
+            box-shadow: 0 0 10px black;
+            padding: 50px;
+            margin: 100px auto ;
+            background-color: violet
+            color: rgb(48, 3, 3);
+          
+        }
+        #title{
+           padding-left: 100px;
+           padding-top: 40px;
+            font-size: larger;
+            font-weight: 1000;
+        }
+        #r{
+            padding-left: 60px;
+            padding-top: 30px;           
+      
+        }
+        
+    </style>
+    <script>
+        function ramiz(){
+           let event= document.getElementById("p1");
+           event.innerText="Good Morning";
+          
+
+        }
+        function rahil(){
+            let event2 =document.getElementById("p1");
+            event2.innerText="Good Evening";
+           
+        }
+        function shabana(){
+           let event3= document.getElementById("p1");
+           event3.innerText="Good Night";
+           
+        }
+    </script>
+</head>
+<body>
+    <div id="container">
+    <div id="title">
+    <span id="p1">Hello</span> &nbsp;<span>ramiz</span>
+    </div>
+    <div id="r">
+    <button id="c1" onclick="ramiz()">Good Morning</button>
+    <button id="c2" onclick="rahil()">Good Evening</button>
+    <button id="c3" onclick="shabana()">Good Night </button>
+    </div>
+</div>
+</body>
+</html>
